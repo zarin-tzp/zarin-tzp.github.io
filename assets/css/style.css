@@ -99,6 +99,17 @@ a {
 .margin0 {
     margin: 0;
 }
+
+.top-segment .about-left.column {
+    width: 70%;
+    float: left;
+}
+.top-segment .about-right.column {
+    width: 30%;
+    float: left;
+}
+
+
 .middle-segment-bottom {
     overflow:hidden;
     padding: 20px 80px;
@@ -119,6 +130,10 @@ a {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
+}
+
+.middle-segment-bottom.about .column {
+    width: 50%;
 }
 .card {
     padding: 10px;
