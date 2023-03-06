@@ -73,6 +73,7 @@ a {
     background-color: #D8AC9C;
     margin-right: 10px;
     display: inline-block;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .primary-btn-2 {
@@ -81,6 +82,14 @@ a {
     text-decoration: none;
     background-color: #EFD9D1;
     display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+}
+.primary-btn-1:hover {
+    background-color: #C48C7BFF;
+}
+
+.primary-btn-2:hover {
+    background-color: #ffe6e0;
 }
 .top-segment .column img {
     border-radius: 25px;
@@ -179,4 +188,35 @@ a {
 
 .footerText {
     color: #D8AC9C;text-align: right
+}
+/*Contact form*/
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    color: #916859;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type=submit] {
+    border: none;
+    cursor: pointer;
 }
