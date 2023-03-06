@@ -220,3 +220,27 @@ input[type=submit] {
     border: none;
     cursor: pointer;
 }
+.preparation .column {
+    width: 25%;
+}
+
+.preparation .column img {
+    max-width: 48px;
+}
+.about-left ul {
+    list-style: none;
+}
+
+.about-left ul li::before {
+    content: "\2022";
+    color: #D8AC9C;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: x-large;
+}
+
+.about-left ul li{
+    font-size: 16px;
+}
