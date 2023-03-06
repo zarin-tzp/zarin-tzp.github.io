@@ -137,4 +137,4 @@ _Code from external sources: None_
 ## Development Process
 - Process: Iterative
 - Repository: Github
-- Branch: master & development
+- Branch: master
