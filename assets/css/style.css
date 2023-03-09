@@ -239,7 +239,10 @@ input[type=submit] {
     margin-left: -1em;
     font-size: x-large;
 }
-
+.fixed-footer{
+    position:absolute;
+    bottom: 0;
+}
 .about-left ul li{
     font-size: 16px;
 }
