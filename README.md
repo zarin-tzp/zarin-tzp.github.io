@@ -121,9 +121,37 @@ This goes well with the highlights of the website and is not a high contrast web
 ## Font
 The google font 'Shantell Sans' was used as the primary font face.
 
+## Testing
+
+This website is completely responsive.I have tested all the pages of this website using Lighthouse tools. The results are:
+
+## Desktop
+<br>
+<kbd>
+<img src="assets/images/desktop1.png" alt="desktop">
+</kbd>
+<br>
+<br>
+
+## Mobile
+<br>
+<kbd>
+<img src="assets/images/mobile.png" alt="mobile">
+</kbd>
+<br>
+<br>
+
+- All the HTML of this website has been tested through [W3C HTML validator](https://validator.w3.org/) and passed without any errors.
+- All the CSS of this website has been tested through [W3C CSS validator](https://jigsaw.w3.org/css-validator/) and passed without any error.
+
 ## Deployment
-This github repository is named such a way that it works as the entry point for showcasing the live project via the [zarin-tzp github io](https://zarin-tzp.github.io/) page.
-As soon as a new commit is pushed or merged to master, the [zarin-tzp github io](https://zarin-tzp.github.io/) page will be synced within minutes. There is no pipeline used for the deployment process.
+
+This website was deployed on a github.io page.The steps to push the code to the github repository are:
+- Download github desktop app
+- Clone the repository
+- Modify the code
+- Commit and push the code to the master branch
+- As soon as a new commit is pushed or merged to master, the [zarin-tzp github io](https://zarin-tzp.github.io/) page will be synced within minutes. The pipeline used for the deployment is github.io's internal process.
 
 
 

@@ -7,6 +7,7 @@ body {
 a {
     color: #000;
 }
+/* menubar */
 .header {
     background-color: #ffffff;
     position: fixed;
@@ -50,11 +51,7 @@ a {
     float: right;
     max-height: none;
 }
-/* .header .menu {
-    clear: both;
-    max-height: 0;
-    transition: max-height .2s ease-out;
-} */
+/* homepage */
 .top-segment {
     overflow:hidden;
     padding: 100px 100px 20px 100px;
@@ -119,7 +116,7 @@ a {
 .margin0 {
     margin: 0;
 }
-
+/* about page */
 .top-segment .about-left.column {
     width: 70%;
     float: left;
@@ -246,6 +243,7 @@ input[type=submit] {
 .about-left ul li{
     font-size: 16px;
 }
+/* responsiveness */
 @media screen and (max-width: 992px) {
     .top-segment, .middle-segment-bottom, .middle-segment-top {
         padding: 30px;
