@@ -246,6 +246,7 @@ input[type=submit] {
 .about-left ul li{
     font-size: 16px;
 }
+
 /* responsiveness */
 @media screen and (max-width: 992px) {
     .top-segment, .middle-segment-bottom, .middle-segment-top {
@@ -320,6 +321,10 @@ input[type=submit] {
     .top-segment .about-right.column {
         width: 100%;
         float: left;
+    }
+
+    .fixed-height{
+        height: 40px;
     }
 }
 
@@ -407,6 +412,7 @@ input[type=submit] {
         width: 100%;
         float: left;
     }
+
 
 }
 
